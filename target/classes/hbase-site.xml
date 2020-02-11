@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<configuration>
+  <property>
+                <name>hbase.zookeeper.quorum</name>
+                <value>master,slave1,slave2</value>
+                <description>The directory shared by RegionServers.</description>
+        </property>
+        <property>
+                <name>hbase.zookeeper.property.dataDir</name>
+                <value>/opt/SoftWare/hbase-1.3.1/zookeeperdata</value>
+                <description>Property from ZooKeeper config zoo.cfg.
+                The directory where the snapshot is stored.
+                </description>
+        </property>
+
+</configuration>
